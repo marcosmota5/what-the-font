@@ -1,0 +1,209 @@
+/* 
+    COMP 1054 Assignment 2
+    Student Id: 200564426
+    Student Name: Marcos Oliveira Mota
+    Created on: 2024-06-20
+*/
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.page-name {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.options {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.options a:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.player {
+    margin-top: 80px;
+    border: none;
+    overflow: hidden;
+}
+
+.song-title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.song-title img {
+    margin-bottom: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.song-title h1 {
+    font-family: 'Ringbearer Medium';
+    font-size: 3em;
+    margin: 0;
+    color: #C7A829;
+}
+
+.song-title h2 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 400;
+    color: #C7A829;
+}
+
+.song-title h3 {
+    font-family: 'Roboto';
+    font-size: 0.7em;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main div {
+    margin-bottom: 30px;
+}
+
+.verse p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.emphasize {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    color: #C7A829;
+}
+
+.chorus p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.refrain p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.outro {
+    margin-bottom: 40px;
+}
+
+.outro p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    align-content: center;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+  }
+  
+
+/* Design for small screens for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    .verse p,
+    .refrain p,
+    .chorus p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .verse p,
+    .refrain p,
+    .chorus p {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+}
+
+/* Custom font */
+@font-face {
+    font-family: 'Ringbearer Medium';
+    src: url('../fonts/RingbearerMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

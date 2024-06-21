@@ -1,0 +1,70 @@
+/* 
+    COMP 1054 Assignment 2
+    Student Id: 200564426
+    Student Name: Marcos Oliveira Mota
+    Created on: 2024-06-20
+*/
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.page-name {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.options {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+}
+
+.options a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.options a:hover {
+  background-color: #555;
+}
+
+/* Footer style */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
